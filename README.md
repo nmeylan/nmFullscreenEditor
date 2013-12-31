@@ -1,6 +1,6 @@
 What is nmFullscreenEditor ?
 ==================
-A textarea fullscreen mode editor.
+A textarea fullscreen mode editor. With text indentation support on tabulation key press or shift + tabulation.
 
 How to use ? 
 ==================
