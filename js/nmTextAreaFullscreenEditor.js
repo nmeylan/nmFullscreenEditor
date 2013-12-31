@@ -16,10 +16,10 @@ var nmTextareaFsEditor = {
 			editor.toggleClass("nmFullscreenEditorOverlay");
 			jQuery(editorId+" textarea").toggleClass("nmFullscreenEditor");
         });
-    jQuery(document).keyup(function(e) {
+		jQuery(document).keyup(function(e) {
 	        	  if (e.keyCode == 27 && jQuery(editorId).hasClass("fullscreenEditorOverlay")) { jQuery(editorId+" ."+textareaFsEditor.buttonClass).trigger("click"); console.log("aa"); }   // esc
 	        	});
-	        textareaFsEditor.initTab(jQuery(editorId+" textarea"));
+	        nmTextareaFsEditor.initTab(jQuery(editorId+" textarea"));
 	    },
 	    initTab : function(editor){
 	    	editor.keydown(function (e) {
